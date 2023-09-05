@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    height: 12vh;
+    background: var(--main-bg-color);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background: var(--main-bg-color);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    height: 63px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+}
+
+.search input {
+    height: 26px;
+    width: 35vw;
+    border-radius: 4px;
+    margin: 0px 16px 0 23px;
+    padding: 0px 25px;
+}
+
+.search button {
+    font-family: 'Oswald', sans-serif;
+}
+
+.act {
+    display: flex;
+}
+
+.act ul {
+    height: 63px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.act ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.act ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.act ul li a:hover {
+    font-weight: bolder;
+}
+
+.slider {
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card {
+    width: 91vw;
+    margin: 37px auto;
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 11vw;
+    margin: 0 15px;
+
+
+}
+
+.card h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+
+}
+.car{
+    display: flex;
+    align-items: center;
+}
+.car img{
+    width: 25px;
+    padding: -6 25px;
+}
